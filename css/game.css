@@ -1,0 +1,19 @@
+.background    { background: BurlyWood;
+                 table-layout: fixed;
+                 border-spacing: 0;   }
+.background td { padding: 0;          }
+.lava          { background: Crimson; }
+.wall          { background: BlueViolet;   }
+
+.actor  { position: absolute;  }
+.coin   { background: yellow; }
+.player { background: Chartreuse; }
+.power {background: Cyan;}
+.floater {background: black;}
+
+.game {
+  overflow: hidden;
+  max-width: 1300px;
+  max-height: 800px;
+  position: relative;
+}
